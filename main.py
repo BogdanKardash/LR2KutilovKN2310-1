@@ -59,7 +59,7 @@ class DataStorage:
 def create_test_files():
     print("СОЗДАНИЕ ТЕСТОВЫХ ФАЙЛОВ")
 
-    json_data1 = {"name": "Test Data", "values": [1, 2, 3, 4, 5]}
+    json_data1 = {"name": "Test Data", "values": [6, 2, 3, 4, 5]}
     f = open('data.json', 'w')
     json.dump(json_data1, f)
     f.close()
